@@ -1,0 +1,258 @@
+body{
+    margin: 0px;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    color: white;
+}
+
+.nav{
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+   
+    a:link{
+        color:white;
+        text-decoration: none;
+    }
+}
+
+.nav-item{
+    padding: 28px 17px;
+    font-weight: 700 ;
+}
+
+.main{
+    background-image:url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-position: 46% 4%;
+    background-size:175%;
+    height:969px ;
+    background-color:rgb(41, 65, 171);
+    color: #1ed760;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    
+}
+
+.button-area{
+    text-align: center; 
+}
+
+.button-style{
+    padding: 14px 32px;
+    background-color: #1ed760;
+    border-radius: 500px;
+    font-size: inherit;
+    color: #2941ab;
+    font-weight: 700;
+    border: none;
+    font-family: Arial,sans-serif;
+    
+}
+
+.button-style:hover{
+    transform:scale(1.1)
+}
+
+footer{
+    height: 530px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+   
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+
+a:hover{
+    color: #1ed760;
+}
+
+
+/* force state- hover 누르기 ( hover 색깔 알아내는 법)*/
+
+
+
+.headline{
+    font-size: 146px;
+    font-weight: 900;
+    color: #1ed760;
+    position: relative;
+    left:225px;
+    padding-bottom: 40px;
+    line-height: 166px;
+    
+}
+
+.headline-first{
+    position: relative;
+    left:-2.5em ;
+}
+
+.sub-headline{
+    color: #1ed760;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+
+footer {
+    height: 530px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+  }
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+  }
+  .footer-box {
+    display: flex;
+    justify-content: space-between;
+    height: 346px;
+  }
+  .first {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .second {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .menu{
+    padding-bottom: 15px;
+    padding-top: 3px;
+    font-size: 16px;
+  }
+  .footer-left {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+  }
+  .title {
+    color: #919496;
+    font-weight: 900;
+    margin: 20px 0px;
+  }
+  .icon-box {
+    width: 54px;
+    height: 54px;
+    background-color: #222322;
+    border-radius: 50%;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon {
+    font-size: 24px;
+  }
+  .icon:hover {
+    color: #2de26d;
+  }
+  .last {
+    color: #919496;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+  }
+  .last-1 {
+    color: #919496;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+  }
+  .last-2{
+    margin-right: 24px;
+    color: #919496;
+  }
+
+/*
+.footer-bar{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    font-family: Helvetica,Arial,sans-serif;
+    color: grey;
+    
+    
+    
+}
+
+.footer-bar-1{
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-left{
+    margin-top: 100px;
+}
+
+.title{
+    padding-top: 3px;
+    padding-bottom:15px;
+    color: white;
+    font-size: 16px;
+}
+
+.right-icon{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+       
+    
+}
+
+.icon {
+    font-size: 24px;
+  }
+  .icon:hover {
+    color: #2de26d;
+  }
+  .first-line {
+    color: #919496;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+  }
+  .second-line {
+    color: #919496;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+  }
+  .second-line-item {
+    margin-right: 24px;
+    color: #919496;
+  }
+
+.box{  
+  max-width: 1170px;
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.box-content{
+    display: flex;
+    justify-content: space-between;
+    height: 346px;
+
+}
+*/
